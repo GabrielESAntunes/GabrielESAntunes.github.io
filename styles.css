@@ -1,14 +1,16 @@
-*{
-    margin: 0 auto;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-#menu{
+
+#navigation{
     background-color: rgb(37, 37, 39);
+    position: fixed;
+    right: 0;
+    top: 60%;
+    width: 8em;
+    margin-top: -2.5em;
+    border-radius: 30px;
 }
 
-#menu ul{
+#navigation ul{
     max-width: 500px;
     list-style-type: none;
     padding: 0;
@@ -16,22 +18,21 @@
     
 }
 
-#menu ul li{
+#navigation ul li{
     display: inline;
 }
-#menu ul li a{
+#navigation ul li a{
     color: #fff;
     padding: 20px;
     text-decoration: none;
     display: inline-block;
     transition: all .6s;
+    border-radius: 70px;
 }
 
-#menu ul li a:hover{
+#navigation ul li a:hover{
     background-color: rgb(24, 139, 233);
    ;
 }
 
-header{
-    display: inline-block;
-}
+
